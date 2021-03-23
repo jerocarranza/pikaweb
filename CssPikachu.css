@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Roboto:wght@300&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;	
+}
+
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image:url("../Imagenes/fondo1.png")
+}
+
+h1 {
+	margin: 10px;
+	text-align: center;
+	font-family: 'Blinker', sans-serif;
+	font-size: 50px;
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-family: 'Blinker', sans-serif;
+	font-size: 35px;
+}
+
+p{
+	margin-bottom: 5px
+}
+
+footer{
+	margin-top: 15px;
+}
+
+#contenedor{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255,0.5);
+	}
+
+
+.imgHeader{
+	width: 100%;
+}
+
+.header>img{
+	width: 100%;
+}
+
+.notiprincipal{
+	width: 97.5%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FAB612;
+	border-radius: 15px;
+}
+
+.imgprincipal{
+	width: 100%;
+}
+
+.notitxt{
+	padding: 15px;
+}
+
+.noticiasecundaria{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contendornoticia{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FAB612;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+.notisecu1{
+	float:left;
+	width: 50%;
+}
+
+.notisecu2{
+	float:right;
+	width: 50%;
+}
+
+/*Estilo nota interna*/
+
+.noti3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.noti3img{
+	float:left;
+	width: 35%;
+}
+
+.noti3txt{
+	float:right;
+	width: 95%;
+	width: 60%;
+	background-color: #FAB612;
+	margin-bottom: 20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	padding: 15px;
+}
+
+/*Estilo videoyputube*/
+
+.video{
+	align-items: center;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/*Estilo Footer*/
+
+.footer{
+	width: 100%;
+	position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgfooter{
+	width: 100%;
+}
+
+.footer>img{
+	width: 100%;
+}
+
+.texto-encima{
+	position: absolute;
+    top: 10px;
+    left: 10px;
+}
