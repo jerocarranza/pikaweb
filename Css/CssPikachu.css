@@ -70,10 +70,10 @@ footer{
 
 .imgprincipal{
 	width: 100%;
+	transition: 1.5s;
 	}
 	.imgprincipal:hover{
-		transform:scale(0.9);
-		transition: 1.5s;
+		transform: scale(0.9);
 	}
 
 .notitxt{
