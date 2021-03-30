@@ -64,9 +64,17 @@ footer{
 	border-radius: 15px;
 }
 
+.hchallenges{
+	font-size: 23px;
+}
+
 .imgprincipal{
 	width: 100%;
-}
+	}
+	.imgprincipal:hover{
+		transform:scale(0.9);
+		transition: 1.5s;
+	}
 
 .notitxt{
 	padding: 15px;
